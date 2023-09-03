@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/media/disk4/yrq/ocr/cpp_project/build",
+  "command": "/usr/bin/g++-9 -g -std=gnu++2a -o CMakeFiles/cpp_study.dir/cpp/01.cpp.o -c /media/disk4/yrq/ocr/cpp_project/cpp/01.cpp",
+  "file": "/media/disk4/yrq/ocr/cpp_project/cpp/01.cpp"
+},
+{
+  "directory": "/media/disk4/yrq/ocr/cpp_project/build",
+  "command": "/usr/bin/g++-9 -g -std=gnu++2a -o CMakeFiles/cpp_study3.dir/cpp/03refer.cpp.o -c /media/disk4/yrq/ocr/cpp_project/cpp/03refer.cpp",
+  "file": "/media/disk4/yrq/ocr/cpp_project/cpp/03refer.cpp"
+},
+{
+  "directory": "/media/disk4/yrq/ocr/cpp_project/build",
+  "command": "/usr/bin/g++-9 -g -std=gnu++2a -o CMakeFiles/cpp_study2.dir/cpp/02.cpp.o -c /media/disk4/yrq/ocr/cpp_project/cpp/02.cpp",
+  "file": "/media/disk4/yrq/ocr/cpp_project/cpp/02.cpp"
+}
+]

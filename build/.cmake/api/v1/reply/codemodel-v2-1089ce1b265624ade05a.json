@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_study",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_study::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_study-Debug-fa046c40ab357607e51e.json",
+					"name" : "cpp_study",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_study2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_study2-Debug-6b3193ab464559f45dad.json",
+					"name" : "cpp_study2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_study3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_study3-Debug-ae6a835c2ff3322f4db2.json",
+					"name" : "cpp_study3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cuda_study::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cuda_study-Debug-accdedb1f8e102ea49b6.json",
+					"name" : "cuda_study",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/media/disk4/yrq/ocr/cpp_project/build",
+		"source" : "/media/disk4/yrq/ocr/cpp_project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

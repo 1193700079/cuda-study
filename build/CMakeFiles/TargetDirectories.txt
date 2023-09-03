@@ -1,2 +1,6 @@
 /media/disk4/yrq/ocr/cpp_project/build/CMakeFiles/rebuild_cache.dir
+/media/disk4/yrq/ocr/cpp_project/build/CMakeFiles/cpp_study.dir
+/media/disk4/yrq/ocr/cpp_project/build/CMakeFiles/cpp_study3.dir
 /media/disk4/yrq/ocr/cpp_project/build/CMakeFiles/edit_cache.dir
+/media/disk4/yrq/ocr/cpp_project/build/CMakeFiles/cpp_study2.dir
+/media/disk4/yrq/ocr/cpp_project/build/CMakeFiles/cuda_study.dir

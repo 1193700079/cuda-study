@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Project
+# Project: cpp_study
 # Configurations: Debug
 # =============================================================================
 
@@ -46,6 +46,68 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cpp_study
+
+
+#############################################
+# Order-only phony target for cpp_study
+
+build cmake_object_order_depends_target_cpp_study: phony || CMakeFiles/cpp_study.dir
+
+build CMakeFiles/cpp_study.dir/cpp/01.cpp.o: CXX_COMPILER__cpp_study_Debug ../cpp/01.cpp || cmake_object_order_depends_target_cpp_study
+  DEP_FILE = CMakeFiles/cpp_study.dir/cpp/01.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_study.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_study.dir/cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cpp_study
+
+
+#############################################
+# Link the executable cpp_study
+
+build cpp_study: CXX_EXECUTABLE_LINKER__cpp_study_Debug CMakeFiles/cpp_study.dir/cpp/01.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/cpp_study.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp_study
+  TARGET_PDB = cpp_study.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cpp_study3
+
+
+#############################################
+# Order-only phony target for cpp_study3
+
+build cmake_object_order_depends_target_cpp_study3: phony || CMakeFiles/cpp_study3.dir
+
+build CMakeFiles/cpp_study3.dir/cpp/03refer.cpp.o: CXX_COMPILER__cpp_study3_Debug ../cpp/03refer.cpp || cmake_object_order_depends_target_cpp_study3
+  DEP_FILE = CMakeFiles/cpp_study3.dir/cpp/03refer.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_study3.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_study3.dir/cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cpp_study3
+
+
+#############################################
+# Link the executable cpp_study3
+
+build cpp_study3: CXX_EXECUTABLE_LINKER__cpp_study3_Debug CMakeFiles/cpp_study3.dir/cpp/03refer.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/cpp_study3.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp_study3
+  TARGET_PDB = cpp_study3.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -59,6 +121,68 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
+# Object build statements for EXECUTABLE target cpp_study2
+
+
+#############################################
+# Order-only phony target for cpp_study2
+
+build cmake_object_order_depends_target_cpp_study2: phony || CMakeFiles/cpp_study2.dir
+
+build CMakeFiles/cpp_study2.dir/cpp/02.cpp.o: CXX_COMPILER__cpp_study2_Debug ../cpp/02.cpp || cmake_object_order_depends_target_cpp_study2
+  DEP_FILE = CMakeFiles/cpp_study2.dir/cpp/02.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cpp_study2.dir
+  OBJECT_FILE_DIR = CMakeFiles/cpp_study2.dir/cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cpp_study2
+
+
+#############################################
+# Link the executable cpp_study2
+
+build cpp_study2: CXX_EXECUTABLE_LINKER__cpp_study2_Debug CMakeFiles/cpp_study2.dir/cpp/02.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/cpp_study2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cpp_study2
+  TARGET_PDB = cpp_study2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target cuda_study
+
+
+#############################################
+# Order-only phony target for cuda_study
+
+build cmake_object_order_depends_target_cuda_study: phony || CMakeFiles/cuda_study.dir
+
+build CMakeFiles/cuda_study.dir/cpp/03refer.cpp.o: CXX_COMPILER__cuda_study_Debug ../cpp/03refer.cpp || cmake_object_order_depends_target_cuda_study
+  DEP_FILE = CMakeFiles/cuda_study.dir/cpp/03refer.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/cuda_study.dir
+  OBJECT_FILE_DIR = CMakeFiles/cuda_study.dir/cpp
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cuda_study
+
+
+#############################################
+# Link the executable cuda_study
+
+build cuda_study: CXX_EXECUTABLE_LINKER__cuda_study_Debug CMakeFiles/cuda_study.dir/cpp/03refer.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/cuda_study.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cuda_study
+  TARGET_PDB = cuda_study.dbg
+
+# =============================================================================
 # Target aliases.
 
 # =============================================================================
@@ -69,12 +193,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 #############################################
 # Folder: /media/disk4/yrq/ocr/cpp_project/build
 
-build all: phony
-
-# =============================================================================
-# Unknown Build Time Dependencies.
-# Tell Ninja that they may appear as side effects of build rules
-# otherwise ordered by order-only dependencies.
+build all: phony cpp_study cpp_study3 cpp_study2 cuda_study
 
 # =============================================================================
 # Built-in targets
@@ -83,14 +202,14 @@ build all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCXXInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeGenericSystem.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.19.7/CMakeCCompiler.cmake CMakeFiles/3.19.7/CMakeCXXCompiler.cmake CMakeFiles/3.19.7/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCXXInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeGenericSystem.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CheckIncludeFile.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CheckLibraryExists.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindCUDA.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindCUDA/select_compute_arch.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindPackageMessage.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindThreads.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.19.7/CMakeCCompiler.cmake CMakeFiles/3.19.7/CMakeCXXCompiler.cmake CMakeFiles/3.19.7/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCXXInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeGenericSystem.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.19.7/CMakeCCompiler.cmake CMakeFiles/3.19.7/CMakeCXXCompiler.cmake CMakeFiles/3.19.7/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCXXInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeGenericSystem.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CheckCSourceCompiles.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CheckIncludeFile.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/CheckLibraryExists.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Compiler/GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindCUDA.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindCUDA/select_compute_arch.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindPackageMessage.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/FindThreads.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Internal/CheckSourceCompiles.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-C.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/Linux.cmake /media/disk4/yrq/eran/cmake-3.19.7-Linux-x86_64/share/cmake-3.19/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.19.7/CMakeCCompiler.cmake CMakeFiles/3.19.7/CMakeCXXCompiler.cmake CMakeFiles/3.19.7/CMakeSystem.cmake: phony
 
 
 #############################################
